@@ -1,6 +1,5 @@
 import expresss, { Request, Response, NextFunction } from "express";
 import { ZodError } from "zod";
-import { validatedUserSchema } from "./middlewares/validateUserSchema";
 import { routes } from "./routes";
 import { AppError } from "./utils/AppError";
 
@@ -8,7 +7,6 @@ const app = expresss();
 const PORT = 3000;
 
 app.use(expresss.json());
-app.use(validatedUserSchema);
 app.use(routes);
 
 app.use((error: any, request: Request, response: Response, _: NextFunction) => {

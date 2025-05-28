@@ -119,3 +119,14 @@ Pasta destinada a **funções e classes auxiliares e utilitárias** que podem se
 - A **classe `AppError`**, utilizada para padronizar o tratamento de erros na aplicação, facilitando o envio de mensagens de erro consistentes.
 
 ---
+
+## Bibliotecas usadas (Dependências)
+
+- Express
+- Zod
+
+## Bibliotecas usadas (Dev Dependências)
+
+- @types/express
+- tsx
+- typescript

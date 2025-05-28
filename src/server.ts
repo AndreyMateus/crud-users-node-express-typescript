@@ -31,5 +31,5 @@ app.use((error: any, request: Request, response: Response, _: NextFunction) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Servidor on: http://localhost:${PORT}`);
+    console.log(`Servidor on: http://localhost:${PORT}/users`);
 });
